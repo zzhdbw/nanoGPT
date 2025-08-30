@@ -1,0 +1,1 @@
+nohup torchrun --nproc_per_node=8 train.py config/train_gpt2.py > logs/train_adamuon_6e-3.log 2>&1 &
